@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  ul.page
+    li.chat.page
+      div.chatArea
+        ul.messages
+      input.inputMessage(placeholder="Type here...")
+    li.login.page
+      div.form
+        h3.title What's your nickname?
+        input.usernameInput(type="text" maxlength="14")
