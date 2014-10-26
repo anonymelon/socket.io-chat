@@ -1,0 +1,9 @@
+extends ../layout
+
+block content
+  h1 Register Page
+
+  form(action="/users" enctype="application/json" method="post")
+    input(type="text" name="name")
+    input(type="password" name="password")
+    input(type="submit" value="Submit")

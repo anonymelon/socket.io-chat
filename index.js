@@ -3,6 +3,8 @@ var debug = require('debug')('socketIOChat');
 var app = require('./app');
 var sio = require('socket.io');
 
+require('./boot')();
+
 app.set('port', process.env.PORT || 3000);
 
 var usernames = {};
