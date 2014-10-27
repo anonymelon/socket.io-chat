@@ -1,12 +1,10 @@
 extends ../layout
 
 block content
-  h1 Register Page
+  h1 Login Page
 
-  form(action="/users" enctype="application/json" method="post")
+  form(action="/users/login" enctype="application/json" method="post")
     ul
-      li Name:
-        input(type="text" name="name")
       li Email:
         input(type="email" name="email")
       li Password:

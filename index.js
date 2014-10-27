@@ -5,7 +5,7 @@ var sio = require('socket.io');
 
 require('./boot')();
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3100);
 
 var usernames = {};
 var numUsers = 0;
